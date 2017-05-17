@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default CardView -->
+    <style name="PNCardView">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="cardCornerRadius">2dp</item>
+    </style>
+    <style name="PNCardView.Image">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <style name="PNCardView.Title" parent="layout_dimens">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingBottom">10dp</item>
+
+        <item name="android:textColor">#424242</item>
+        <item name="android:textSize">21dp</item>
+    </style>
+
+    <style name="PNCardView.SubTitle" parent="layout_dimens">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingBottom">10dp</item>
+
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="PNCardView.Text" parent="layout_dimens">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="PNCardView.ButtonContainer">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">4sp</item>
+    </style>
+
+    <style name="PNCardView.Button" parent="@android:style/Widget.Material.Button.Borderless.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+    
+    <!-- Colored CardView> -->
+    <style name="PNCardViewColor">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="cardCornerRadius">2dp</item>
+    </style>
+    <style name="PNCardViewColor.Image">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <style name="PNCardViewColor.Title" parent="layout_dimens">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingBottom">10dp</item>
+
+        <item name="android:textColor">@color/whitePrimary</item>
+        <item name="android:textSize">21dp</item>
+    </style>
+
+    <style name="PNCardViewColor.SubTitle" parent="layout_dimens">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingBottom">10dp</item>
+
+        <item name="android:textColor">@color/whiteSecondary</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="PNCardViewColor.Text" parent="layout_dimens">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+
+        <item name="android:textColor">@color/whiteSecondary</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="PNCardViewColor.ButtonContainer">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">4sp</item>
+    </style>
+
+    <style name="PNCardViewColor.Button" parent="@android:style/Widget.Material.Button.Borderless.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+
+        <item name="android:textColor">@color/whitePrimary</item>
+    </style>
+
+</resources>

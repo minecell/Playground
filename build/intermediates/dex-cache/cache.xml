@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\Android\Projects\Playground\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="E:\Android\Projects\Playground\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_4062899795f60ff83d05e13187dad4780ebd7b85.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\Projects\Playground\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="E:\Android\Projects\Playground\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.4.0_339d7e48ec776a29382dbbebfd5d80083615c4f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\Projects\Playground\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="E:\Android\Projects\Playground\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.8.0_46f8aa181b69d9ba8d95294d70c5ccd15336dcf5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\Projects\Playground\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="E:\Android\Projects\Playground\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_addb879e74400f9ad686a2b1af69b9ef94a8c2de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\Projects\Playground\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="E:\Android\Projects\Playground\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_45a1e96f2ed0a55e918334cb71956f2c336f32e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\Android_Studio\SDK\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="E:\Android\Projects\Playground\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_d6c18427b3ecd09dede3f598440d27a4620c300b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\Projects\Playground\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="E:\Android\Projects\Playground\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.8.0_c86e884af9903d91e65b078124814709fc35dd4a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\Projects\Playground\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="E:\Android\Projects\Playground\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.4.0_0ae7553ac8907d0c4efab5689b42d110ae58d8a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\Projects\Playground\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="E:\Android\Projects\Playground\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_a65da7b8a2c18ae6a138f2cb32f250bb17a2759f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\Projects\Playground\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="E:\Android\Projects\Playground\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-23.4.0_56d3596f93976594a586a364050d224ca2f0d15e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\Projects\Playground\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
+        <dex dex="E:\Android\Projects\Playground\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-9.8.0_f84ce20c6b7eebe273e3382548b6e34a67b3e1e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\Projects\Playground\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="E:\Android\Projects\Playground\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.8.0_f2d6c20808a8714b24e3e30256111ab749789ccd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\Projects\Playground\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="E:\Android\Projects\Playground\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.8.0_def1c7baad1ba94ead53afabb04ea476215efbd4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\Projects\Playground\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="E:\Android\Projects\Playground\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_fbbcb90c8ff44ae51b7ad9b1ed0b786c80aaf440.jar" />
+    </item>
+
+</items>

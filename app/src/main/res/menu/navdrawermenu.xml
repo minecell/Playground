@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Allgemein">
+        <menu>
+            <item
+                android:id="@+id/nHome"
+                android:icon="@drawable/ic_dashboard_black_24dp"
+                android:title="Start" />
+        </menu>
+    </item>
+
+    <item android:title="Locations Mittagessen">
+        <menu>
+            <item
+                android:id="@+id/nFLZurich"
+                android:icon="@drawable/ic_restaurant_menu_black_24dp"
+                android:title="Zürich" />
+            <item
+                android:id="@+id/nFLWinterthur"
+                android:icon="@drawable/ic_restaurant_menu_black_24dp"
+                android:title="Winterthur" />
+        </menu>
+    </item>
+
+    <item android:title="Einstellungen">
+        <menu>
+            <item
+                android:id="@+id/nSettings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="Einstellungen" />
+        </menu>
+    </item>
+    <item android:title="Über Playground">
+        <menu>
+            <item
+                android:id="@+id/nVersion"
+                android:enabled="false"
+                android:icon="@drawable/ic_build_black_24dp"
+                android:title="@string/empty" />
+            <item
+                android:id="@+id/nCopyright"
+                android:enabled="false"
+                android:icon="@drawable/ic_copyright_black_24dp"
+                android:title="\u00A9 Philipp Bergamin" />
+        </menu>
+    </item>
+</menu>

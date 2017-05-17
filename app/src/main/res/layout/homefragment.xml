@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:id="@+id/blank"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="ch.philnet.playground.MainActivity"
+        tools:showIn="@layout/applicationwrapper">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_share"
+            style="@style/PNCardView">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    style="@style/PNCardView.Image"
+                    android:layout_height="160dp"
+                    android:id="@+id/card_share_image"
+                    android:src="@drawable/whatsapplogo"/>
+
+                <TextView
+                    style="@style/PNCardView.Title"
+                    android:layout_below="@id/card_share_image"
+                    android:paddingBottom="0dp"
+                    android:id="@+id/card_share_title"
+                    android:text="Teilen via WhatsApp" />
+
+                <TextView
+                    style="@style/PNCardView.SubTitle"
+                    android:layout_below="@id/card_share_title"
+                    android:id="@+id/card_share_subtitle"
+                    android:text="Hinzugefügt in Playground 16.11.1" />
+
+                <TextView
+                    style="@style/PNCardView.Text"
+                    android:layout_below="@id/card_share_subtitle"
+                    android:id="@+id/card_share_text"
+                    android:text="Du kannst unsere App nun per Whatsapp teilen. Wir danken Dir für deine Unterstützung!" />
+
+                <RelativeLayout
+                    style="@style/PNCardView.ButtonContainer"
+                    android:layout_below="@id/card_share_text">
+                    <ImageButton
+                        style="@style/PNCardView.Button"
+                        android:id="@+id/card_share_btnShare"
+                        android:onClick="btnShare"
+                        android:src="@drawable/ic_send_accent_24dp" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_bluetooth"
+            style="@style/PNCardViewColor"
+            android:layout_below="@id/card_share"
+            card_view:cardBackgroundColor="@color/colorPrimaryDark">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    style="@style/PNCardViewColor.Title"
+                    android:layout_alignParentTop="true"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:id="@+id/card_bluetooth_title"
+                    android:text="Bluetooth" />
+
+                <TextView
+                    style="@style/PNCardViewColor.SubTitle"
+                    android:layout_below="@id/card_bluetooth_title"
+                    android:textColor="#F44336"
+                    android:id="@+id/card_bluetooth_subtitle"
+                    android:text="Neue Funktionen!" />
+
+                <TextView
+                    style="@style/PNCardViewColor.Text"
+                    android:layout_below="@id/card_bluetooth_subtitle"
+                    android:paddingBottom="8dp"
+                    android:id="@+id/card_bluetooth_text"
+                    android:text="Hiermit kannst du nach anderen Bluetooth-Geräten suchen und dich mit ihnen verbinden (Hinweis: Diese Funktion befindet sich aktuell in der Testphase)!" />
+
+                <RelativeLayout
+                    style="@style/PNCardViewColor.ButtonContainer"
+                    android:layout_below="@id/card_bluetooth_text">
+                    <ImageButton
+                        style="@style/PNCardViewColor.Button"
+                        android:id="@+id/card_bluetooth_btnBluetoothEnable"
+                        android:onClick="btnBluetoothEnable"
+                        android:src="@drawable/ic_bluetooth_white_24dp" />
+                    <ImageButton
+                        style="@style/PNCardViewColor.Button"
+                        android:layout_toLeftOf="@id/card_bluetooth_btnBluetoothEnable"
+                        android:id="@+id/card_bluetooth_btnBluetoothPair"
+                        android:onClick="btnBluetoothPair"
+                        android:src="@drawable/ic_bluetooth_searching_white_24dp" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_error_report"
+            style="@style/PNCardView"
+            android:layout_below="@id/card_bluetooth">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    style="@style/PNCardView.Title"
+                    android:layout_alignParentTop="true"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:id="@+id/card_error_report_title"
+                    android:text="Feedback &amp; Fehlermeldungen" />
+
+                <TextView
+                    style="@style/PNCardView.Text"
+                    android:layout_below="@id/card_error_report_title"
+                    android:id="@+id/card_error_report_text"
+                    android:text="[Begründung] Wir danken Dir für deine Unterstützung!" />
+
+                <RelativeLayout
+                    style="@style/PNCardView.ButtonContainer"
+                    android:layout_below="@id/card_error_report_text"
+                    android:paddingBottom="8dp">
+                    <ImageButton
+                        style="@style/PNCardView.Button"
+                        android:id="@+id/card_error_report_btnReport"
+                        android:onClick="btnReport"
+                        android:src="@drawable/ic_bug_report_accent_24dp" />
+                    <ImageButton
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_toLeftOf="@id/card_error_report_btnReport"
+                        android:id="@+id/card_error_report_btnFeedback"
+                        android:onClick="btnFeedback"
+                        android:src="@drawable/ic_thumbs_up_down_accent_24dp" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_welcome"
+            style="@style/PNCardViewColor"
+            android:layout_below="@id/card_error_report"
+            card_view:cardBackgroundColor="@color/colorPrimaryDark">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    style="@style/PNCardViewColor.Title"
+                    android:layout_alignParentTop="true"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:id="@+id/card_welcome_title"
+                    android:text="Playground \u2022 Funktionen" />
+
+                <TextView
+                    style="@style/PNCardViewColor.Text"
+                    android:layout_below="@id/card_welcome_title"
+                    android:paddingBottom="8dp"
+                    android:id="@+id/card_welcome_text"
+                    android:text="Diese App bietet diverse Funktionen und Ansichten, unter anderem:\n\n
+\u2022 Benachrichtigungen anzeigen\n
+\u2022 Start-Ansicht (momentan aktiv)\n
+\u2022 Locations Mittagessen (in Entwicklung)\n
+\u2022 Einstellungen zu Benachrichtigungen \n
+\u2022 Feedback geben &amp; Fehler melden (via E-Mail)\n\n
+Wir wünschen Ihnen viel Spass bei der Verwendung von Android Playground!" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+</ScrollView>

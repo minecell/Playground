@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Benachrichtigungseinstellungen"
+        android:key="pref_notifications"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <SwitchPreference
+            android:key="EnableNotifications"
+            android:title="Benachrichtigungen aktivieren"
+            android:summary="Benachrichtigungen von Playground erlauben"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:key="EnableHeadsUp"
+            android:dependency="EnableNotifications"
+            android:title="Hohe Priorität"
+            android:summary="Die Benachrichtigung beim Eintreffen am oberen Bildschirmrand einblenden"
+            android:defaultValue="true"/>
+        <Preference
+            android:key="EnableFileAccess"
+            android:title="Zugriff auf Gerätespeicher"
+            android:summary="Playground erlauben, Dateien im Gerätespeicher zu öffnen und zu speichern"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>
